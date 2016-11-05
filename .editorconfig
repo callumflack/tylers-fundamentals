@@ -1,0 +1,6 @@
+# https://atom.io/packages/editorconfig
+# http://editorconfig.org/
+[*.{js,hmtl,css}]
+charset = utf-8
+indent_style = space
+indent_size = 4
