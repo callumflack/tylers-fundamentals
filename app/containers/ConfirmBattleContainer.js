@@ -24,7 +24,7 @@ var ConfirmBattleContainer = React.createClass({
         })
       }.bind(this)) //bind 'this' to the outer context
   },
-  handleInitiateBattle:  function () {
+  handleInitiateBattle: function () {
     this.context.router.push({
       pathname: '/results',
       state: {
